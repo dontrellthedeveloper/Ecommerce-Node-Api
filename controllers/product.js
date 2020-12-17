@@ -16,3 +16,9 @@ exports.create = async (req, res) => {
     }
 };
 
+
+exports.read = async (req, res) => {
+    let products = await Product.find({});
+    res.json(products);
+};
+
