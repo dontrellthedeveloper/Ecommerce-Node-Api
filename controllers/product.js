@@ -74,7 +74,7 @@ exports.update = async (req, res) => {
 //     const { sort, order, limit } = req.body;
 //     const products = await Product.find({})
 //       .populate("category")
-//       .populate("subs")
+//       .populate("sub")
 //       .sort([[sort, order]])
 //       .limit(limit)
 //       .exec();
