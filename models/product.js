@@ -59,10 +59,10 @@ const productSchema = new mongoose.Schema(
             enum: ["Apple", "Samsung", "Microsoft", "Lenovo", "ASUS"],
         },
         ratings: [
-          {
-            star: Number,
-            postedBy: { type: ObjectId, ref: "User" },
-          },
+            {
+                star: Number,
+                postedBy: { type: ObjectId, ref: "User" },
+            },
         ],
     },
     { timestamps: true }
