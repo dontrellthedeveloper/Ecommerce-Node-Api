@@ -43,4 +43,3 @@ router.put("/user/wishlist/:productId", authCheck, removeFromWishlist);
 // });
 
 module.exports = router;
-

@@ -36,4 +36,3 @@ router.get("/product/related/:productId", listRelated);
 router.post("/search/filters", searchFilters);
 
 module.exports = router;
-
